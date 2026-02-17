@@ -1,7 +1,8 @@
 # Multi-Distro Test Rig Setup Guide
 
 Fedora KDE Live USB • 1 TB NVMe • 5 Distros • Shared Games  
-Target disk: `/dev/nvme1n1`
+
+**Disclaimer: Use at your own risk.**
 
 ---
 
@@ -101,7 +102,7 @@ Gives direct, reliable control over partition layout.
 Select:
 
 ```
-/dev/nvme1n1
+/dev/nvme???
 ```
 
 Verify:
