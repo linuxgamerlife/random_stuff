@@ -212,10 +212,10 @@ chmod +x ~/bin/whisper
 Usage:
 
 ```bash
-whisper audio.mp3
+whisper audio.mp3 >> audio.txt
 ```
 
-The transcription appears in the terminal.
+The transcription appears in the folder you run the script in.
 
 ---
 
