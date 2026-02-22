@@ -1,0 +1,35 @@
+# Add the t2 repo
+sudo dnf copr enable sharpenedblade/t2linux
+
+# Install the kernel
+sudo dnf swap --from-repo="copr:copr.fedorainfracloud.org:sharpenedblade:t2linux" kernel kernel
+
+# Install the other t2 packages
+
+sudo dnf install t2linux-release
+
+# Reboot and the keyboard and touchpad should work
+# Go here for instruction on how to get the wifi to work https://wiki.t2linux.org/guides/wifi-bluetooth/
+
+# For my 2019 i5 Macbook Air
+# Grab the firmware from here https://wiki.t2linux.org/tools/firmware.sh
+
+#####################################################################################
+# Method 5 downloads a macOS Recovery image from Apple.                             #
+# So you need to have an active internet connection on Linux.                       #
+# You can use Ethernet, USB tethering or an external Wi-Fi adapter to get internet. #
+#####################################################################################
+
+# Make sure the following is installed
+#    python3 - Renames the firmware.
+#    dpkg - Creates a package that can be installed on Linux using apt.
+#    rpm - Creates a package that can be installed on Linux using dnf.
+#    makepkg - Creates a package that can be installed on Linux using pacman.
+#    coreutils - Additional requirement of makepkg.
+
+chmod +x firmward.sh
+sudo ./firmwar.sh
+
+# Run the firmware choose the recommended option.
+# Once complete
+reboot
