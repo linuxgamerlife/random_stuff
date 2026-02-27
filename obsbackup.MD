@@ -47,7 +47,7 @@ What this does:
 Open a new script file:
 
 ```bash
-kwrite ~/.local/bin/backup-obs.sh &
+nano ~/.local/bin/backup-obs.sh &
 ```
 
 The `&` runs KWrite in the background so your terminal stays usable.
