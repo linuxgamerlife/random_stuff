@@ -13,8 +13,8 @@ You are in a garage with a working PC and a small generator.
 
 You have two USB sticks:
 
-- USB 1: Fedora Games Lab (already installed on the machine)
-- USB 2: Fedora Design Suite (bootable USB)
+- USB 1: Fedora Games Lab (already installed on the machine) (7GB)
+- USB 2: Fedora Design Suite (bootable USB) (4.6GB)
 
 That is your entire software ecosystem.
 
