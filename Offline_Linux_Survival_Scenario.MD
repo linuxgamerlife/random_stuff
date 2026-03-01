@@ -1,4 +1,4 @@
-# Offline Fedora Survival Scenario  
+# Offline Linux Survival Scenario  
 ## Adding Fedora Design Suite Apps to a Fedora Games Install Using Only Bootable USB Media
 
 Disclaimer: Use at your own risk.
