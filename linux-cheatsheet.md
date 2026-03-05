@@ -114,7 +114,7 @@ Fedora uses **DNF** to install and manage software.
 | `dnf history` | Shows install and update history |
 | `sudo dnf autoremove` | Removes orphaned dependencies |
 
-## Flatpak (Common on Fedora)
+## Flatpak
 
 | Command | What it does |
 |--------|--------------|
