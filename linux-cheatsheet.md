@@ -1,4 +1,4 @@
-# Fedora Linux Terminal Cheat Sheet (Beginner Friendly)
+#Linux Terminal Cheat Sheet (Beginner Friendly)
 
 This cheat sheet covers the most useful terminal commands for **Fedora Linux**, aimed at beginners.
 
